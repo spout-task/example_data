@@ -1,0 +1,72 @@
+TASK STARTED AT,1134987176
+Stopped by,Timeout
+TASK ENDED AT,1137931315
+AnimalName,SPOUT1_example_session
+taskGoNogo,off
+taskStop,off
+taskRatio,off
+taskPavlovianCond,on
+MinBlock,1
+MaxBlock,3
+MinBlockA,1
+MaxBlockA,3
+MinBlockB,1
+MaxBlockB,3
+CueTime(ms),3000
+CuePenalty(ms),0
+SelectionTime(ms),1
+CorrectTime(ms),3000
+IncorrectTime(ms),3000
+FailsUntilReward,1
+MinITI(ms),3000
+MaxITI(ms),5000
+ITIStep,500
+ITIisENL,off
+ENLPenaltyDuration,1
+MinReward(ms),48
+MaxReward(ms),48
+RewardStep,1
+RewardProbability,100
+RewardDelay(ms),0
+SpoutStart,0
+ACueFreq(hz),6000
+BCueFreq(hz),14000
+DurationErrorLight,1
+RatioFixed,0
+FRNumberLicks,1
+PRNumberStartLicks,1
+GoNumberLicks,1
+NogoHoldDuration,1
+StopNumberLicks,1
+RandomRewardProb,5
+BlockSwitchAfterCorrectTrials,off
+CuesInstructed,off
+Opto,off
+OptoDuringBlockSwitch,FALSE
+OptoDuringITI,FALSE
+OptoDuringCue,FALSE
+OptoDuringOutcome,FALSE
+OptoDuringConsumption,FALSE
+OptoDuringError,FALSE
+OptoProbability,1
+CorrectTrialsBeforeOpto,1
+OptoDelay(ms),1
+AllowMultiStimITI,FALSE
+AllowMultiStimCue,FALSE
+AllowMultiStimBlock,FALSE
+ContinuousOpto,FALSE
+OptoDuration(ms),1
+PulseDuration(ms),1
+OptoFrequency(Hz),1
+OptoModulation,1
+OptoModContinuous,off
+OptoTaperOff(ms),1
+AddRandomOptoLight,FALSE
+MaxOmissions,0
+Timeout(min),49
+MaxRewards,0
+MaxTrials,0
+TaskStartDelay,120
+DataSavedTo,20260712_SPOUT1_example_session in C:\Users\sabatini\Documents\Behavior_Data
+Arduino Code,teensy1spout.ino
+MATLAB Code,SPOUT1

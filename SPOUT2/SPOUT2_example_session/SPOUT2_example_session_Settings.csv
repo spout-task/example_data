@@ -1,0 +1,53 @@
+TASK STARTED AT,2855330
+Stopped by,Timeout
+TASK ENDED AT,6459628
+AnimalName,SPOUT2_example_session
+task2ABT,off
+MinBlock,4
+MaxBlock,8
+MinBlockLeft,4
+MaxBlockLeft,8
+MinBlockRight,4
+MaxBlockRight,8
+CueTime(ms),75
+CuePenalty(ms),1
+SelectionTime(ms),3000
+CorrectTime(ms),3000
+IncorrectTime(ms),3000
+FailsUntilReward,6
+MinENL(ms),1000
+MaxENL(ms),2000
+ENLStep,250
+MinLeft(ms),30
+MaxLeft(ms),30
+LeftStep,1
+MinRight(ms),28
+MaxRight(ms),28
+RightStep,1
+RewardProbability,100
+SpoutStart,Random
+LeftCueFreq(hz),4000
+RightCueFreq(hz),4000
+OneSpeaker,on
+Opto,on
+OptoDuringBlockSwitch,FALSE
+OptoDuringENL,FALSE
+OptoDuringConsumption,FALSE
+OptoDuringCue,FALSE
+OptoProbability,100
+CorrectTrialsBeforeOpto,2
+OptoDelay(ms),0
+AllowMultiStimENL,TRUE
+AllowMultiStimCue,TRUE
+AllowMultiStimBlock,FALSE
+ContinuousOpto,TRUE
+OptoDuration(ms),3000
+PulseDuration(ms),1
+OptoFrequency(Hz),1
+AOMModulation,1
+AddRandomOptoLight,TRUE
+MaxOmissions,40
+Timeout(min),60
+DataSavedTo,SPOUT2_example_session in C:\Users\sabatini\Desktop\Behavior_Data
+Arduino Code,teensy2spout.ino
+MATLAB Code,SPOUT2
