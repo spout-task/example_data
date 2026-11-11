@@ -1,7 +1,7 @@
 # SPOUT · example data
 
 One example recording session per system, as written by **SPOUT** — part of the
-[spout-task](https://github.com/spout-task) project. Use these to test the scripts in the [analyses](https://github.com/spout-task/analyses) repo.
+[spout-task](https://github.com/spout-task) project. Use these to test the scripts in the [analyses](https://github.com/spout-task/analyses) repo. Example session of SPOUT1 is a Pavlovian conditioning session. Example session of SPOUT2 is a LL/LR session.
 
 ```
 SPOUT1/  SPOUT1_example_session/  (+ SPOUT1_example_session.jpg)
